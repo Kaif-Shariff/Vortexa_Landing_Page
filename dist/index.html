@@ -1,0 +1,280 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="font-[Poppins]">
+    <div id="above_nav" class="w-[100%] h-7 bg-mycyan flex items-center">
+        <img class="w-5 mx-4" src="../Assets/Map Point.svg" alt="Location"> <span
+            class="text-white text-[12px]">Mon-Sat: 9.00am To 7.00pm</span>
+        <img class="w-5 mx-4" src="../Assets/Mailbox.svg" alt="Mail"> <span
+            class="text-white text-[12px]">business@example.com</span>
+        <img class="w-5 mx-4" src="../Assets/Phone.svg" alt="Phone"> <span class="text-white text-[12px]">+00 7845
+            9856</span>
+    </div>
+    <header class="bg-white shadow-md h-[10%] flex fixed w-[100%] z-10">
+        <nav class="flex justify-between items-center w-[92%] mx-auto">
+            <div>
+                <img class="w-30 h-10 cursor-pointer" src="../Assets/logo.png" alt="Vortexa Logo">
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-mycyan uppercase" href="#imgContainer">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-mycyan uppercase" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-mycyan uppercase" href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-mycyan uppercase" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <button class="text-black px-5 py-2 rounded-md ring-1 ring-[#CCCCCC] hover:ring-black">Get
+                    Started</button>
+            </div>
+    </header>
+
+    <!-- hero section -->
+    <section id="imgContainer" class="w-auto h-screen bg-cover bg-center transition-all ease-in-out scroll-smooth">
+        <div class="w-[35%] h-48 top-[35%] mx-12 absolute p-4">
+            <div id="heading" class="font-bold text-[40px] text-white">
+                <h1>Empowering Your Business Growth</h1>
+            </div>
+            <div id="subtext" class="text-white">
+                <p>Seamlessly enhance resource-intensive partnerships through top-tier specialization, expertly
+                    foster personalized customer interactions..</p>
+            </div>
+            <button
+                class="my-5 bg-mycyan text-white  px-6 py-4 rounded-md hover:ring-mycyan cursor-pointer hover:ring-2 hover:text-white hover:bg-transparent">Discover
+                More</button>
+        </div>
+    </section>
+    <!-- services section -->
+    <section id="services" class="w-auto h-screen scroll-smooth">
+        <div id="service-texts-info" class="m-16 w-[40%]">
+            <div id="service-heading" class="text-4xl font-bold">
+                <h1>Unleash Your Business Potential with Our Expert Services</h1>
+            </div>
+            <div id="service-subtext" class="text-[#787676] text-sm">With over 28 years of dedicated experience, we
+                are committed to providing tailored solutions that drive growth and success. Our services encompass:
+            </div>
+        </div>
+
+        <div id="service-cards">
+
+            <div id="card-structure" class="grid grid-rows-2 grid-flow-col gap-2 left-[-42px] absolute">
+
+                <!-- first service card -->
+
+                <div class="py-6 ml-16 cursor-pointer hover:translate-y-[-10px] transition-all duration-200 ease">
+                    <div class="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
+                        <div class=" bg-cover w-20 h-20 ml-8 mt-4"
+                            style="background-image: url('../Assets/database.png')">
+                        </div>
+                        <div class="w-2/3 p-4">
+                            <h1 class="text-gray-900 font-bold text-2xl">Cloud Computing</h1>
+                            <p class="mt-2 text-gray-600 text-sm">Cloud Computing is a service we provide
+                                at The Company.</p>
+                            <div class="flex item-center justify-between mt-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-6 ml-16 cursor-pointer hover:translate-y-[-10px] transition-all duration-200 ease">
+                    <div class="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
+                        <div class=" bg-cover w-20 h-20 ml-8 mt-4"
+                            style="background-image: url('../Assets/statistics.png')">
+                        </div>
+                        <div class="w-2/3 p-4">
+                            <h1 class="text-gray-900 font-bold text-2xl">Data Analysis</h1>
+                            <p class="mt-2 text-gray-600 text-sm">Data Analysis is a service we provide
+                                at The Company.</p>
+                            <div class="flex item-center justify-between mt-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-6 ml-16 cursor-pointer hover:translate-y-[-10px] transition-all duration-200 ease">
+                    <div class="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
+                        <div class=" bg-cover w-20 h-20 ml-8 mt-4"
+                            style="background-image: url('../Assets/vulnerability.png')">
+                        </div>
+                        <div class="w-2/3 p-4">
+                            <h1 class="text-gray-900 font-bold text-2xl">Cybersecurity</h1>
+                            <p class="mt-2 text-gray-600 text-sm">Cybersecurity is a technology service we provide
+                                at The Company.</p>
+                            <div class="flex item-center justify-between mt-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-6 ml-16 cursor-pointer hover:translate-y-[-10px] transition-all duration-200 ease">
+                    <div class="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
+                        <div class=" bg-cover w-20 h-20 ml-8 mt-4"
+                            style="background-image: url('../Assets/coding.png')">
+                        </div>
+                        <div class="w-2/3 p-4">
+                            <h1 class="text-gray-900 font-bold text-2xl">Web Development</h1>
+                            <p class="mt-2 text-gray-600 text-sm">Web Development is a technology service we provide
+                                at The Company.</p>
+                            <div class="flex item-center justify-between mt-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-6 ml-16 cursor-pointer hover:translate-y-[-10px] transition-all duration-200 ease">
+                    <div class="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
+                        <div class=" bg-cover w-20 h-20 ml-8 mt-4"
+                            style="background-image: url('../Assets/discussion.png')">
+                        </div>
+                        <div class="w-2/3 p-4">
+                            <h1 class="text-gray-900 font-bold text-2xl">I.T Consultancy</h1>
+                            <p class="mt-2 text-gray-600 text-sm">I.T Consultancy is a technology service we provide
+                                at The Company.</p>
+                            <div class="flex item-center justify-between mt-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-6 ml-16 cursor-pointer hover:translate-y-[-10px] transition-all duration-200 ease">
+                    <div class="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
+                        <div class=" bg-cover w-20 h-20 ml-8 mt-4"
+                            style="background-image: url('../Assets/invesment.png')">
+                        </div>
+                        <div class="w-2/3 p-4">
+                            <h1 class="text-gray-900 font-bold text-2xl">Business Services</h1>
+                            <p class="mt-2 text-gray-600 text-sm">Business Services is a technology service we
+                                provide
+                                at The Company.</p>
+                            <div class="flex item-center justify-between mt-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section id="about" class="w-auto h-screen scroll-smooth">
+        <!-- about us picture with a text -->
+        <div class="w-[80%] h-[60%] mx-auto bg-cover bg-center rounded-md top-96 pt-24 bg-slate-500"
+            style="background-image: url(../Assets/about.jpg);">
+
+            <div
+                class="w-[50%] h-64 top-[35%] ml-[45%] backdrop-brightness-75 backdrop-blur-sm cursor-pointer rounded-md py-4 px-6">
+                <!-- texts on about us img -->
+                <div class="font-bold text-[40px] text-white">
+                    <h1>We Are Trusted Solutions Company With 28+ Years Of Experience.</h1>
+                </div>
+                <div class="text-white">
+                    <p>Professional consulting for expert guidance, improving organizational performance.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex w-[90%] h-72 mx-28 space-x-20 mt-24 flex-row">
+
+            <!-- about card no.1 -->
+            <div class="flex flex-row w-96 h-48 rounded-md shadow-custom">
+                <!-- image container for about us  -->
+                <div id="icon-container"
+                    class="flex rounded-full shadow-custom p-2 bg-white mt-[-50px] w-20 absolute ml-[150px]">
+                    <img class="w-32" src="../Assets/people.svg" alt="Image">
+                </div>
+
+                <!-- texts -->
+                <div id="text-container" class="text-center space-y-2 px-4">
+                    <h1 class="font-bold text-2xl mt-14">Customer Oriented</h1>
+                    <p class="text-sm">It is a philosophy that focuses on understanding and meeting the needs preference
+                    </p>
+                </div>
+            </div>
+
+            <!-- about card no.2 -->
+            <div class="flex flex-row w-96 h-48 rounded-md shadow-custom">
+                <!-- image container for about us  -->
+                <div id="icon-container"
+                    class="flex rounded-full shadow-custom p-2 bg-white mt-[-50px] w-20 absolute ml-[150px]">
+                    <img class="w-32" src="../Assets/fast-delivery.png" alt="Image">
+                </div>
+                <!-- texts -->
+                <div id="text-container" class="text-center space-y-2 px-4">
+                    <h1 class="font-bold text-2xl mt-14">Fast & Quality Results</h1>
+                    <p class="text-sm">Striving for both fast and high-quality results is a desirable goal for any
+                        business or
+                        project</p>
+                </div>
+            </div>
+
+            <!-- about card no.3 -->
+            <div class="flex flex-row w-96 h-48 rounded-md shadow-custom">
+                <!-- image container for about us  -->
+                <div id="icon-container"
+                    class="flex rounded-full shadow-custom p-2 bg-white mt-[-50px] w-20 absolute ml-[150px]">
+                    <img class="w-32" src="../Assets/paper_plane.svg" alt="Image">
+                </div>
+                <!-- texts -->
+                <div id="text-container" class="text-center space-y-2 px-4">
+                    <h1 class="font-bold text-2xl mt-14">99.99% Success</h1>
+                    <p class="text-sm">This level of uptime indicates a minimal amount of downtime or service
+                        interruption</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact" class="w-auto h-screen scroll-smooth">
+        <!-- text-container  -->
+        <div class="flex flex-col w-[90%] mx-auto mt-20 p-14 h-64">
+            <h1 class="text-3xl font-bold">Connect With us</h1>
+            <p class="text-sm">Whether you have feedback, inquiries, or ideas to share, we're here to listen and assist.
+            </p>
+        </div>
+
+        <!-- contact form -->
+        <form class="flex flex-col mx-28 -mt-28">
+            <input class="ring-1 ring-[#E5E5E5] p-3 m-4 w-[617px] font-light rounded-sm" type="text" placeholder="Enter Name">
+            <input class="ring-1 ring-[#E5E5E5] p-3 m-4 w-[617px] font-light rounded-sm" type="email" placeholder="Enter Email">
+            <input class="ring-1 ring-[#E5E5E5] p-3 m-4 w-[617px] font-light rounded-sm" type="text" placeholder="Subject">
+            <input class="ring-1 ring-[#E5E5E5] p-3 m-4 w-[617px] font-light rounded-sm" type="number" placeholder="Phone Number">
+            <textarea class="ring-1 ring-[#E5E5E5] p-3 m-4 w-[617px] h-[148px] font-light resize-none rounded-sm"
+                placeholder="Message..."></textarea>
+            <!-- div for buttons  -->
+            <div class="flex mx-4">
+                <input class="w-[296px] h-[45px] ring-2 ring-mycyan text-mycyan font-semibold rounded-sm hover:text-white hover:bg-mycyan" type="reset"
+                    value="Reset">
+                <input class="w-[296px] h-[45px] ring-2 ring-mycyan bg-mycyan font-semibold text-white ml-6 rounded-sm hover:text-mycyan hover:bg-white" type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+
+    <footer class="bg-[#333232] w-auto flex px-4 h-14 items-center">
+        <div id="container">
+            <img src="../Assets/copyright.svg" alt="Copyright" class="mt-2 absolute">
+            <p class="text-white font-extralight mx-4">Vortexa All rights reserved 2023.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
