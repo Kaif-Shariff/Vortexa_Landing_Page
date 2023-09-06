@@ -1,6 +1,6 @@
 # Vortexa Landing Page
 
-![Vortexa Landing Page Screenshot](./screenshot.png)
+![Vortexa Landing Page Screenshot](https://github.com/Kaif-Shariff/Vortexa_Landing_Page/blob/main/Screenshot%20(15).png?raw=true)
 
 This is a customized landing page project created using the Tailwind CSS framework. The project is based on an existing UI design found online and modified to meet specific requirements.
 
